@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Clothes online shop">
+    <meta name="keywords" content="clothes,  shopping, store, online, buy">
+    <meta name="author" content="koralearachchi Shashindu Akasha">
+    <meta name="copyright" content="HTML.it">
+    <meta name="generator" content="Visual Studio Code">
+    <title>E - commerce</title>
+
+
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image">
+
+    <!-- link file CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- link file BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <div class="info">
+        <div class="socials">
+            <i class='bx bxl-facebook-square' ></i>
+            <i class='bx bxl-instagram' ></i>
+            <i class='bx bxl-twitter' ></i>
+            <i class='bx bxl-linkedin-square' ></i>
+        </div>
+        <div class="informations">
+            <div class="timetable">
+                <i class='bx bx-calendar' ></i>
+                <span>
+                    Mon - Fri 08:00 - 18:00
+                </span>
+            </div>
+            <div class="email">
+                <i class='bx bx-envelope' ></i>
+                <span>
+                    info@example.com
+                </span>
+            </div>
+            <div class="phone">
+                <i class='bx bx-phone' ></i>
+                <span>
+                    (+39) 444 589 4345
+                </span>
+            </div>
+        </div>
+    </div>
+    <header id="header" class="header">
+
+        <a href="#" class="logo">ShaK</a>
+        <nav class="navbar">
+            <ul id="navbar">
+                <li class="nav__item">
+                    <a href="#" class="nav__link">home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">shop</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">blog</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">about</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#" class="nav__link">contact</a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <div class="header__buttons">
+            <div class="cart"><i class='bx bx-shopping-bag' ></i></div>
+            <div class="sign" id="sign">sign</div>
+            <div id="menu-bar">
+                <i class='bx bx-menu menu-icon'></i>
+            </div>
+        </div>
+
+    </header>
+
+    <section id="form">
+        <div class="heading">
+            <h2>Sign in</h2>
+            <i class='bx bx-x' id="form-x"></i>
+        </div>
+        <p>don't miss out on exclusive benefits and discount coupons.</p>
+        <form action="" method="post">
+            <div class="form__email">
+                <label for="email" class="email">Email:</label>
+                <input type="text" required name="email" id="email">
+            </div>
+            <div class="form__password">
+                <label for="password">Password:</label>
+                <input type="password" required name="password" id="password">
+            </div>
+            <div class="form__info">
+                <div class="info__rem">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">remember</label>
+                </div>
+                <a href="#" class="forgot">Did you forget your password?</a>
+            </div>
+            <div class="form__btns">
+                <button class="signin-btn">Sign in</button>
+                <button class="register-btn">register now</button>
+            </div>
+        </form>
+    </section>
+
+    <main id="main" class="main">
+
+        <section id="hero" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <article class="hero__article swiper-slide " style="background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(assets/img/hero/hero_1.jpg);background-repeat: no-repeat; background-size: cover;">
+                    <h3>Don't miss out on opportunities</h3>
+                    <h1><span>Find the perfect look </span> <br>for every occasion</h1>
+                    <p>On your first purchase you receive an incredible discount</p>
+                    <a href="#" class="cta">Buy now</a>
+                </article>
+                <article class="hero__article swiper-slide" style="background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(assets/img/hero/hero_2.jpg);background-repeat: no-repeat; background-size: cover;">
+                    <h3>Don't miss out on opportunities</h3>
+                    <h1><span>From casual to elegant -</span> <br> find your ideal style here</h1>
+                    <p>On your first purchase you receive an incredible discount</p>
+                    <a href="#" class="cta">Buy now</a>
+                </article>
+                <article class="hero__article swiper-slide" style="background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(assets/img/hero/hero_3.jpg);background-repeat: no-repeat; background-size: cover;">
+                    <h3>Don't miss out on opportunities</h3>
+                    <h1><span>The fashion you love </span> <br> just a click away</h1>
+                    <p>On your first purchase you receive an incredible discount</p>
+                    <a href="#" class="cta">Buy now</a>
+                </article>
+                <article class="hero__article swiper-slide" style="background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(assets/img/hero/hero_4.jpg);background-repeat: no-repeat; background-size: cover;">
+                    <h3>Don't miss out on opportunities</h3>
+                    <h1><span>Express yourself with your clothing: </span> <br> discover our collection</h1>
+                    <p>On your first purchase you receive an incredible discount</p>
+                    <a href="#" class="cta">Buy now</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="strength__section">
+            <h2 class="observe">our <span>strengths </span> are:</h2>
+            <div class="strength-cards__layout">
+                <div class="strength__card observe">
+                    <img src="assets/img/strength/strength_1.jpg" alt="" class="img">
+                    <div class="content">
+                        <i class='bx bxs-user' ></i>
+                        <h4>qualified personnel</h4>
+                    </div>
+                </div>
+                <div class="strength__card observe">
+                    <img src="assets/img/strength/strength_2.jpg" alt="" class="img">
+                    <div class="content">
+                        <i class='bx bx-check' ></i>
+                        <h4>quality products</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="strength__card observe">
+                    <img src="assets/img/strength/strength_3.jpg" alt="" class="img">
+                    <div class="content">
+                        <i class='bx bxs-color'></i>
+                        <h4>discounts</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="strength__card observe">
+                    <img src="assets/img/strength/strength_4.jpg" alt="" class="img">
+                    <div class="content">
+                        <i class='bx bx-package' ></i>
+                        <h4>fast deliveries</h4>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="strength__card observe">
+                    <img src="assets/img/strength/strength_5.jpg" alt="" class="img">
+                    <div class="content">
+                        <i class='bx bx-time-five' ></i>
+                        <h4>24/7 Support</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="arrivals">
+
+            <h2 class="heading observe"> <span>new </span> arrivals</h2>
+
+            <div class="swiper arrivals-slider observe">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide card observe">
+                        <div class="img">
+                            <img src="assets/img/arrivals/arrival_2/arrival_2.1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Dreamy Daze Clothes</h4>
+                            <p>light and floating clothes, perfect for a relaxed and romantic summer look.</p>
+                            <span>10% - Discount</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card observe">
+                        <div class="img">
+                            <img src="assets/img/arrivals/arrival_1/arrival_1.1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Twilight Tulle Kit</h4>
+                            <p>elegant and lovely clothes, perfect for special evenings or formal occasions</p>
+                            <span>10% - Discount</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card observe">
+                        <div class="img">
+                            <img src="assets/img/arrivals/arrival_3/arrival_3.1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Fireside Flannel Shirt</h4>
+                            <p>a light and pleasant shirt, perfect for special evenings or formal occasions</p>
+                            <span>10% - Discount</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card observe">
+                        <div class="img">
+                            <img src="assets/img/arrivals/arrival_4/arrival_4.1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Whispering Willow Wrap</h4>
+                            <p>An elegant, enveloping dress, perfect for a feminine and refined look</p>
+                            <span>10% - Discount</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card observe">
+                        <div class="img">
+                            <img src="assets/img/arrivals/arrival_5/arrival_5.1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Sunkissed Sundress</h4>
+                            <p>Light and airy clothes, perfect for enjoying the summer sun in style and comfort</p>
+                            <span>10% - Discount</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card observe">
+                        <div class="img">
+                            <img src="assets/img/arrivals/arrival_6/arrival_6.1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Urban Explorer</h4>
+                            <p>resistant and fashionable clothes, perfect for those who love exploring the city</p>
+                            <span>10% - Discount</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide card observe">
+                        <div class="img">
+                            <img src="assets/img/arrivals/arrival_7/arrival_7.1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h4>Stardust Sparkle Scarf</h4>
+                            <p>A bright and sparkling scarf, perfect for adding a touch of glamor to your winter outfits</p>
+                            <span>10% - Discount</span>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            
+        </section>
+
+        <section id="steps">
+            <h2 class="heading observe">How to order from <span>ShaK</span>?</h2>
+            <div class="steps__layout">
+                <div class="step__card observe">
+                    <h2>Step - 1</h2>
+                    <div class="step__content">
+                        <h4>Chose your product</h4>
+                        <p>among a variety of clothes</p>
+                    </div>
+                </div>
+                <div class="step__card observe">
+                    <h2>Step - 2</h2>
+                    <div class="step__content">
+                        <h4>Place an order</h4>
+                        <p>and we will be ready to ship it to you quickly</p>
+                    </div>
+                </div>
+                <div class="step__card observe">
+                    <h2>Step - 3</h2>
+                    <div class="step__content">
+                        <h4>Get the order delivered</h4>
+                        <p>you will receive the product directly at home</p>
+                    </div>
+                </div>
+                <div class="step__card observe">
+                    <h2>Step - 4</h2>
+                    <div class="step__content">
+                        <h4>Enjoy the order</h4>
+                        <p>with style and fashion</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="popular">
+            <h2 class="heading observe">
+                <span>popular</span> products
+            </h2>
+            <div class="popular__layout">
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_1.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>Polo Regular Fit</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+                        <span>45,99€</span>
+                    </div>
+                </div>
+                
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_2.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>Short twill jacket</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star' ></i> 
+                        </div>
+                        <span>39,99€</span>
+                    </div>
+                </div>
+                
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_3.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>Slim fit linen trousers</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>29,99€</span>
+                    </div>
+                </div>
+                
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_4.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>Regular Fit overcoat</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>79,99€</span>
+                    </div>
+                </div>
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_5.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>Dress with decorative knot</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>84,99€</span>
+                    </div>
+                </div>
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_6.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>light bowling</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>119,99€</span>
+                    </div>
+                </div>
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_7.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>crossbone lady jacket</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <span>144,99€</span>
+                    </div>
+                </div>
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_8.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>loose fit hoodie</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half' ></i>
+                        </div>
+                        <span>64,99€</span>
+                    </div>
+                </div>
+                <div class="card observe">
+                    <div class="img">
+                        <img src="assets/img/popular/popular_9.jpg" alt="">
+                    </div>
+                    <div class="card__info">
+                        <h4>Trench coat with crossover</h4>
+                        <div class="card__stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                        <span>99,99€</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="footer" class="footer">
+        <div class="footer__layout">
+            <div class="footer__info">
+                <a href="#hero" class="logo">ShaK</a>
+                <p>Viale Marche 71/C 20125, Milan, Italy</p>
+                <div class="timetable">
+                    <i class='bx bx-calendar' ></i>
+                    <span>
+                        Mon - Fri 08:00 - 18:00
+                    </span>
+                </div>
+                <div class="email">
+                    <i class='bx bx-envelope' ></i>
+                    <span>
+                        info@example.com
+                    </span>
+                </div>
+                <div class="phone">
+                    <i class='bx bx-phone' ></i>
+                    <span>
+                        (+39) 444 589 4345
+                    </span>
+                </div>
+                <div class="socials">
+                    <i class='bx bxl-facebook-square' ></i>
+                    <i class='bx bxl-instagram' ></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-linkedin-square' ></i>
+                </div>
+            </div>
+
+            
+        <div class="footer__support">
+            <h4>support</h4>
+            <a href="#faq">FAQs</a>
+            <a href="#">Contact us</a>
+            <a href="#">Shipping & Returns</a>
+        </div>
+
+        <div class="footer__shop">
+            <h4>Shop</h4>
+            <a href="#">Shop page</a>
+            <a href="#">Furnitures</a>
+            <a href="#">Discount</a>
+        </div>
+
+        <div class="footer__company">
+            <h4>company</h4>
+            <a href="#">About</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+
+        </div>
+        
+        <div class="copyright">
+            copyright <i class='bx bx-copyright' ></i> 2024. all right reserved. koralearachchi shashindu akasha.
+        </div>
+
+    </footer>
+
+    <!-- link file SLIDER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- link file JAVASCRIPT -->
+    <script src="js/main.js"></script>
+</body>
+</html>
